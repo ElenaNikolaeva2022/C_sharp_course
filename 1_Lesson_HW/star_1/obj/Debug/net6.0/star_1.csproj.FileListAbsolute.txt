@@ -1,0 +1,15 @@
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/star_1/bin/Debug/net6.0/star_1
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/star_1/bin/Debug/net6.0/star_1.deps.json
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/star_1/bin/Debug/net6.0/star_1.runtimeconfig.json
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/star_1/bin/Debug/net6.0/star_1.dll
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/star_1/bin/Debug/net6.0/star_1.pdb
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/star_1/obj/Debug/net6.0/star_1.csproj.AssemblyReference.cache
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/star_1/obj/Debug/net6.0/star_1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/star_1/obj/Debug/net6.0/star_1.AssemblyInfoInputs.cache
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/star_1/obj/Debug/net6.0/star_1.AssemblyInfo.cs
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/star_1/obj/Debug/net6.0/star_1.csproj.CoreCompileInputs.cache
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/star_1/obj/Debug/net6.0/star_1.dll
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/star_1/obj/Debug/net6.0/refint/star_1.dll
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/star_1/obj/Debug/net6.0/star_1.pdb
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/star_1/obj/Debug/net6.0/star_1.genruntimeconfig.cache
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/star_1/obj/Debug/net6.0/ref/star_1.dll

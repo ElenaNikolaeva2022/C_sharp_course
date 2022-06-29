@@ -4,7 +4,6 @@
 
 int TakeNum(int num)
 {
-    // return 456 % 10 = 5;
     return (num / 10) % 10;
 }
 

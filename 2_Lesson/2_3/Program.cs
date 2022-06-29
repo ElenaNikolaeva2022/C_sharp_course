@@ -16,4 +16,5 @@ void OneOfNum(int num_1, int num_2)
         Console.WriteLine($"{num_1}, {num_2} -> not multiple, the remainder {num_1 % num_2}");
     }
 }
+OneOfNum(34, 5);
 OneOfNum(16, 4);

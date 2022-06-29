@@ -1,0 +1,13 @@
+﻿// Задача 10. Напишите программу, которая принимает на вход 
+// трёхзначное число и на выходе показывает вторую цифру этого
+// числа. (456  - 5), (782 - 8), (918 - 1)
+
+int TakeNum(int num)
+{
+    // return 456 % 10 = 5;
+    return (num / 10) % 10;
+}
+
+Console.WriteLine(TakeNum (456)); 
+Console.WriteLine(TakeNum (782)); 
+Console.WriteLine(TakeNum (918)); 

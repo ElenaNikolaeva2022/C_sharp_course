@@ -3,17 +3,19 @@
 // числа. (456 -> 46), (782 -> 72), (918 -> 98)
 
 
-void OneOfNum(int num_1, int num_3)
+void NumRendom()
 {
-    if (num_1 % num_3 == 0)
-    {
-        Console.WriteLine($"{num_1}, {num_3}");
-    }
-    else
-    {
-        Console.WriteLine($"{num_1}, {num_3}");
-    }
+    int num = new Random().Next(100, 1000);
+    Console.WriteLine($"{num} -> {num / 100}{num % 10}");
 }
-OneOfNum(456, 46);
-OneOfNum(782, 72);
-OneOfNum(918, 98);
+
+NumRendom();
+
+// --------------------------------------------------------------- 2 вариант
+
+void NumRendom()
+{
+    int num = new Random().Next(100, 1000);
+    Console.WriteLine($"{num} -> {num / 100 * 10 + num % 10}");
+}
+NumRendom();

@@ -13,9 +13,9 @@ NumRendom();
 
 // --------------------------------------------------------------- 2 вариант
 
-void NumRendom()
-{
-    int num = new Random().Next(100, 1000);
-    Console.WriteLine($"{num} -> {num / 100 * 10 + num % 10}");
-}
-NumRendom();
+// void NumRendom()
+// {
+//     int num = new Random().Next(100, 1000);
+//     Console.WriteLine($"{num} -> {num / 100 * 10 + num % 10}");
+// }
+// NumRendom();

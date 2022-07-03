@@ -4,13 +4,16 @@
 // 5 -> 1, 8, 27, 64, 125
 
 
-void Pows(int num)
+void Cube(int num)
 {
     int count = 1;
     while (count <= num)
     {
-        Console.Write($"{Math.Pow(count, 2)} ");
+        Console.Write($"{Math.Pow(count, 3)} ");
         count++;
     }
+    Console.WriteLine();
 }
-Pows(4);
+
+Cube(3);
+Cube(5);

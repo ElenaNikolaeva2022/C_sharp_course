@@ -1,5 +1,5 @@
 ﻿// https://ru.onlinemschool.com/math/library/analytic_geometry/point_point_length/
-// Формулы вычисления расстояния между двумя точками:
+
 // Формула вычисления расстояния между двумя точками A(xa, ya) и B(xb, yb) 
 // на плоскости:// AB = √(xb - xa)2 + (yb - ya)2
 

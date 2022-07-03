@@ -15,19 +15,3 @@ double AB(double ax, double ay, double az, double bx, double by, double bz)
 
 AB(3, 6, 8, 2, 1, -7);
 Console.WriteLine(AB(3, 6, 8, 2, 1, -7));
-
-
-
-
-
-
-// double AB(double xa, double xb, double xz, double ya, double yb,  double yz)
-// {
-//     return Math.Sqrt(Math.Pow(xz - xb - xa, 2) + Math.Pow(yz - yb - ya, 2));
-// }
-
-// AB(3, 6, 8, 2, 1, -7);
-// Console.WriteLine(AB(3, 6, 8, 2, 1, -7));
-
-// AB(7, -5, 0, 1, -1, -9);
-// Console.WriteLine(AB(7, -5, 0, 1, -1, -9));

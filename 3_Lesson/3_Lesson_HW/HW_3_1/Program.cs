@@ -10,4 +10,25 @@
 // 12821 -> да
 // 23432 -> да
 
-Почему-то никак не получается решить задачку :( 
+
+void Palindrome(int n)
+{
+    int i = 0;
+    string num = n.ToString();
+    int size = num.Length - 1;
+    string flag = "Нет";
+
+    while (i < size / 2)
+    {
+        if (num[i] == num[size - i])
+        {
+            flag = "Да";
+            break;
+        }
+        i += 1;
+    }
+    Console.WriteLine($"{n} -> {flag}");
+}
+    Palindrome(14212);
+    Palindrome(12821);
+    Palindrome(23432);

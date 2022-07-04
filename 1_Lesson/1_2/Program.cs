@@ -1,4 +1,9 @@
-﻿int day = int.Parse(Console.ReadLine());
+﻿// 2. Напишите программу, которая будет выдавать н
+// азвание дня недели по заданному номеру. 
+// 3 -> Среда
+// 5 -> Пятница 
+
+int day = int.Parse(Console.ReadLine());
 	
 	if(day == 1)
 	{

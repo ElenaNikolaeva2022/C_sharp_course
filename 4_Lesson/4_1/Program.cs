@@ -5,13 +5,29 @@
 // 4 -> 10 
 // 8 -> 36
 
+// int SumNum(int num)
+// {
+//     int all_sum = 0;
+//     for(int i = 1; i <= num; i++)
+//     {
+//         all_sum += i;
+//     }
+//     return all_sum;
+// }
+
+// Console.WriteLine(SumNum(7));
+// Console.WriteLine(SumNum(4));
+// Console.WriteLine(SumNum(8));
+
+// Вариант без фигурных скобок, если в них только одно выражение.
+// Но когда два выражения, то лучше с фигурными скобками.
+
 int SumNum(int num)
 {
     int all_sum = 0;
-    for(int i = 1; i <= num; i++)
-    {
+    for (int i = 1; i <= num; i++)
         all_sum += i;
-    }
+
     return all_sum;
 }
 

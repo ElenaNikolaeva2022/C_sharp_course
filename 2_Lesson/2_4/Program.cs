@@ -17,6 +17,7 @@ void OneOfNum(int num_1)
         Console.WriteLine("Нет");
     }
 }
+
 OneOfNum(14);
 OneOfNum(46);
 OneOfNum(161);

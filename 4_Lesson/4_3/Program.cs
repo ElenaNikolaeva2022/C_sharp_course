@@ -1,5 +1,7 @@
 ﻿// 2. Напишите программу, которая принимает на вход
 //    число N и выдаёт произведение чисел от 1 до N.
+// 4 -> 24 
+// 5 -> 120
 
 int MultNum(int num)
 {
@@ -10,4 +12,6 @@ int MultNum(int num)
     }
     return all_mult;
 }
+
 Console.WriteLine(MultNum(4));
+Console.WriteLine(MultNum(5));

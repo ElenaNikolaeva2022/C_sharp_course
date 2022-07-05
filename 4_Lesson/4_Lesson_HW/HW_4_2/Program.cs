@@ -4,4 +4,14 @@
 // 82 -> 10
 // 9012 -> 12
 
+int Num = Convert.ToInt32(Console.ReadLine());
+int sum = 0;
 
+while (Num > 0)
+{
+    int num = Num % 10;
+    Num = Num / 10;
+    sum = sum + num;
+}
+
+Console.WriteLine(sum);

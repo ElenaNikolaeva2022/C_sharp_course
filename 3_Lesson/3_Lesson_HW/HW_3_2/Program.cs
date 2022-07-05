@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿// https://ru.onlinemschool.com/math/library/analytic_geometry/point_point_length/
 // Формулы вычисления расстояния между двумя точками:
 // A(xa, ya, za) и B(xb, yb, zb) в пространстве:
@@ -23,3 +24,6 @@ Console.WriteLine(AB(3, 6, 8, 2, 1, -7));
 // Console.WriteLine(Line3D(7, -5, 0, 1, -1, 9));
 
 
+=======
+﻿
+>>>>>>> 4_lesson

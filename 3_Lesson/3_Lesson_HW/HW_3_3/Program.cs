@@ -16,9 +16,6 @@ void Cube(int num)
 }
 
 Cube(3);
-<<<<<<< HEAD
-Cube(5);
-=======
 Cube(5);
 
 
@@ -42,4 +39,3 @@ Cube(5);
 // Squares(11);
 
 
->>>>>>> 3_lesson

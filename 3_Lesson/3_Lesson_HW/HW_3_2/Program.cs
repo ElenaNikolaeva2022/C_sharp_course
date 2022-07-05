@@ -13,10 +13,6 @@ double AB(double ax, double ay, double az, double bx, double by, double bz)
     return Math.Sqrt(Math.Pow(bx - ax, 2) + Math.Pow(by - ay, 2) + Math.Pow(bz - az, 2));
 }
 
-<<<<<<< HEAD
-
-Console.WriteLine(AB(3, 6, 8, 2, 1, -7));
-=======
 Console.WriteLine(AB(3, 6, 8, 2, 1, -7));
 
 // double Line3D(float x1, float y1, float z1, float x2, float y2, float z2)
@@ -27,4 +23,3 @@ Console.WriteLine(AB(3, 6, 8, 2, 1, -7));
 // Console.WriteLine(Line3D(7, -5, 0, 1, -1, 9));
 
 
->>>>>>> 3_lesson

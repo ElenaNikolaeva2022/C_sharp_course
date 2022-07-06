@@ -33,5 +33,3 @@ Console.WriteLine(max);
 // {
 //     Console.WriteLine($"The number {n_2} is greater than {n_1}");
 // }
-
-

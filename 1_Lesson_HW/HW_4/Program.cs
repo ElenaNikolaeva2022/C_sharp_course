@@ -13,3 +13,12 @@ while (i <= num)
     Console.WriteLine($"{i} ");
     i += 2;
 }
+
+// Решение Марии:
+// int n_1 = int.Parse(Console.ReadLine());
+// int i = 2;
+// while (i <= n_1)
+// {
+//     Console.WriteLine($"{i} ");
+//     i += 2;
+// }

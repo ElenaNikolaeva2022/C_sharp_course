@@ -28,14 +28,13 @@ int EvenNum(int[] arr)
 {
     int count = 0;
     for (int i = 0; i < arr.Length; i++)
-    {
         if (arr[i] % 2 == 0)
         {
             count += 1;
         }
-        return count;
-    }
+    return count;
 }
+
 int[] arr_1 = MassNums(10);
 Print(arr_1);
 Console.WriteLine(EvenNum(arr_1));
@@ -44,6 +43,7 @@ Console.WriteLine(EvenNum(arr_1));
 // void Print(int[] arr)
 // {
 //     int size = arr.Length;
+
 //     for (int i = 0; i < size; i++)
 //     {
 //         Console.Write($"{arr[i]} ");
@@ -72,8 +72,8 @@ Console.WriteLine(EvenNum(arr_1));
 //         {
 //             count += 1;
 //         }
-//         return count;
 //     }
+//     return count;
 // }
 // int[] arr_1 = MassNums(15, 100, 1000);
 // Print(arr_1);

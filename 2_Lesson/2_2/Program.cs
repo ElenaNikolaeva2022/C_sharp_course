@@ -15,3 +15,4 @@ int MaxNum(int num)
 int SecondNum = new Random().Next(10, 100);
 Console.WriteLine(SecondNum);
 Console.WriteLine(MaxNum(SecondNum));
+

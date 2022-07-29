@@ -20,8 +20,8 @@ int[,] MassNums(int row, int column, int from, int to)
     int[,] arr = new int[row, column];
 
     for (int i = 0; i < row; i++)
-    for (int j = 0; j < column; j++)
-    arr[i, j] = new Random().Next(from, to);
+        for (int j = 0; j < column; j++)
+            arr[i, j] = new Random().Next(from, to);
     return arr;
 }
 
@@ -36,12 +36,12 @@ void FirstWithLast(int[,] arr)
     }
 }
 
-Console.Write("Enter the number of rows: ");
+Console.Write("Введите количество строк: ");
 int row = int.Parse(Console.ReadLine());
-Console.Write("Enter the number of columns: ");
+Console.Write("Введите количество столбцов: ");
 int column = int.Parse(Console.ReadLine());
 
-int[,] arr_1 = MassNums(row, column, 1, 10);
+int[,] arr_1 = MassNums(row, column, 1, 101);
 Print(arr_1);
 
 FirstWithLast(arr_1);

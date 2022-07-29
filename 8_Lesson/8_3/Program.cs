@@ -23,7 +23,7 @@ void Print(int[,] arr)
     for (int i = 0; i < row_size; i++)
     {
         for (int j = 0; j < column_size; j++)
-        Console.Write($" {arr[i, j],3} ");
+            Console.Write($" {arr[i, j],3} ");
         Console.WriteLine();
     }
     Console.WriteLine();
@@ -34,8 +34,8 @@ int[,] MassNums(int row, int column, int from, int to)
     int[,] arr = new int[row, column];
 
     for (int i = 0; i < row; i++)
-    for (int j = 0; j < column; j++)
-    arr[i, j] = new Random().Next(from, to);
+        for (int j = 0; j < column; j++)
+            arr[i, j] = new Random().Next(from, to);
     return arr;
 }
 
@@ -50,13 +50,13 @@ int[] FrequencyDict(int[,] arr)
 void PrintMass(int[] arr)
 {
     for (int i = 0; i < arr.Length; i++)
-    Console.WriteLine($"{i} meets: {arr[i]}");
+        Console.WriteLine($"{i} meets: {arr[i]}");
     Console.WriteLine();
 }
 
-Console.Write("Enter the number of rows: ");
+Console.Write("Введите количество строк: ");
 int row = int.Parse(Console.ReadLine());
-Console.Write("Enter the number of columns: ");
+Console.Write("Введите количество столбцов: ");
 int column = int.Parse(Console.ReadLine());
 
 int[,] arr_1 = MassNums(row, column, 0, 10);

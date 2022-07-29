@@ -45,9 +45,9 @@ string MatrixT(int[,] arr)
     return text;
 }
 
-Console.Write("Enter the number of rows: ");
+Console.Write("Введите количество строк: ");
 int row = int.Parse(Console.ReadLine());
-Console.Write("Enter the number of columns: ");
+Console.Write("Введите количество столбцов: ");
 int column = int.Parse(Console.ReadLine());
 
 int[,] arr_1 = MassNums(row, column, 1, 10);

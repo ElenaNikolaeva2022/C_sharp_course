@@ -8,47 +8,50 @@
 //    Введенный элемент 2, результат: [1, 4]
 //    Введенный элемент 6, результат: такого элемента нет.
 
-// void PrintArray(int[,] matr )
-// {
-//     for (int i = 0; i < matr.GetLength(0); i++)
-//     {
-//         for (int j = 0; j < matr.GetLength(1); j++)
-//         {
-//             Console.Write($"{matr[i, j]} ");
-//         }
-//         Console.WriteLine();
-//     }
-// }
+void Print(int[,] arr)
+{
+    int row_size = arr.GetLength(0);
+    int column_size = arr.GetLength(1);
 
-// void FillArray(int[,] matr)
-// {
-//   for (int i = 0; i < matr.GetLength(0); i++)
-//   {
-//     for (int j = 0; j < matr.GetLength(1); j++)
-//     {
-//         matr[i, j] = new Random().Next(1, 10); // [1; 10) - скобки полуинтервала
-//     }
-//   }
-// }
+    for (int i = 0; i < row_size; i++)
+    {
+        for (int j = 0; j < column_size; j++)
+            Console.Write($" {arr[i, j]} ");
+        Console.WriteLine();
+    }
+    Console.WriteLine();
+}
 
-// void FindPosOfNum (int [,] array, int num)
-// {
-//     // bool flag = false;
-//     for (int i = 0; i < array.GetLength(0); i++)
-//     {
-//         for (int j = 0; j < array.GetLength(1); j++)
-//         {
-//             if (array[1, j] == num)
-//             {
-//                 Console.WriteLine($"[{i++}, {j++}]");
-//                 return;
-//             }
-//         }
-//     }
-//     Console.WriteLine("Не найдено");
-// }
+int[,] MassNums(int row, int column, int from, int to)
+{
+    int[,] arr = new int[row, column];
 
+    for (int i = 0; i < row; i++)
+        for (int j = 0; j < column; j++)
+            arr[i, j] = new Random().Next(from, to);
+    return arr;
+}
 
-// int[,] matrix = FillArray(4, 4);
-// PrintArray(matrix);
-// FindPosOfNum(matrix, 2);
+void OccurrenceElement(int[,] arr, int num)
+{
+    int row = arr.GetLength(0);
+    int column = arr.GetLength(1);
+    string answer = "Нет";
+
+    for (int i = 0; i < row; i++)
+        for (int j = 0; j < column; j++)
+            if (arr[i, j] == num) answer = $"[{i + 1}, {j + 1}] ";
+
+    Console.WriteLine($"Element {num} located in the matrix - {answer}");
+}
+
+Console.Write("Введите количество строк: ");
+int row = int.Parse(Console.ReadLine());
+Console.Write("Введите количество столбцов: ");
+int column = int.Parse(Console.ReadLine());
+Console.Write("Введите номер для поиска: ");
+int number = int.Parse(Console.ReadLine());
+
+int[,] arr_1 = MassNums(row, column, 1, 11);
+Print(arr_1);
+OccurrenceElement(arr_1, number);

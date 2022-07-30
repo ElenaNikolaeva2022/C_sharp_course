@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-﻿
-=======
-﻿// 1. Задайте двумерный массив. Напишите программу,
-//    которая поменяет местами первую и последнюю строку массива.
+﻿// 1. Задайте двумерный массив. Напишите программу, которая упорядочит
+//    по убыванию элементы каждой строки двумерного массива. 
 
 void Print(int[,] arr)
 {
@@ -12,7 +9,7 @@ void Print(int[,] arr)
     for (int i = 0; i < row_size; i++)
     {
         for (int j = 0; j < column_size; j++)
-            Console.Write($" {arr[i, j]} ");
+            Console.Write($" {arr[i, j],3} ");
         Console.WriteLine();
     }
     Console.WriteLine();
@@ -28,14 +25,19 @@ int[,] MassNums(int row, int column, int from, int to)
     return arr;
 }
 
-void FirstWithLast(int[,] arr)
+void OrderElMin(int[,] arr)
 {
-    int row = arr.GetLength(0);
-    int column = arr.GetLength(1);
+    int row_size = arr.GetLength(0);
+    int column_size = arr.GetLength(1);
 
-    for (int i = 0; i < column; i++)
+    for (int i = 0; i < row_size; i++)
     {
-        (arr[0, i], arr[row - 1, i]) = (arr[row - 1, i], arr[0, i]);
+        for (int j = 0; j < column_size; j++)
+        {
+            for (int k = 0; k < column_size - j - 1; k++)
+                if (arr[i, k] < arr[i, k + 1])
+                    (arr[i, k], arr[i, k + 1]) = (arr[i, k + 1], arr[i, k]);
+        }
     }
 }
 
@@ -44,9 +46,8 @@ int row = int.Parse(Console.ReadLine());
 Console.Write("Введите количество столбцов: ");
 int column = int.Parse(Console.ReadLine());
 
-int[,] arr_1 = MassNums(row, column, 1, 101);
+int[,] arr_1 = MassNums(row, column, 0, 10);
 Print(arr_1);
 
-FirstWithLast(arr_1);
+OrderElMin(arr_1);
 Print(arr_1);
->>>>>>> 8_lesson

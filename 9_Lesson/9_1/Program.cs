@@ -3,10 +3,10 @@
 //    N = 5 -> "1, 2, 3, 4, 5" 
 //    N = 6 -> "1, 2, 3, 4, 5, 6" 
 
-void Values (int num)
+void Values(int num)
 {
     if (num == 0) return;
-    Values (num - 1);
+    Values(num - 1);
     Console.Write($"{num}, ");
 }
 

@@ -1,0 +1,15 @@
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/9_Lesson/9_3/bin/Debug/net6.0/9_3
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/9_Lesson/9_3/bin/Debug/net6.0/9_3.deps.json
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/9_Lesson/9_3/bin/Debug/net6.0/9_3.runtimeconfig.json
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/9_Lesson/9_3/bin/Debug/net6.0/9_3.dll
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/9_Lesson/9_3/bin/Debug/net6.0/9_3.pdb
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/9_Lesson/9_3/obj/Debug/net6.0/9_3.csproj.AssemblyReference.cache
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/9_Lesson/9_3/obj/Debug/net6.0/9_3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/9_Lesson/9_3/obj/Debug/net6.0/9_3.AssemblyInfoInputs.cache
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/9_Lesson/9_3/obj/Debug/net6.0/9_3.AssemblyInfo.cs
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/9_Lesson/9_3/obj/Debug/net6.0/9_3.csproj.CoreCompileInputs.cache
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/9_Lesson/9_3/obj/Debug/net6.0/9_3.dll
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/9_Lesson/9_3/obj/Debug/net6.0/refint/9_3.dll
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/9_Lesson/9_3/obj/Debug/net6.0/9_3.pdb
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/9_Lesson/9_3/obj/Debug/net6.0/9_3.genruntimeconfig.cache
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/9_Lesson/9_3/obj/Debug/net6.0/ref/9_3.dll

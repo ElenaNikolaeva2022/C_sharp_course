@@ -1,0 +1,15 @@
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/7_1_Lesson/7_1_0_Demo/bin/Debug/net6.0/7_1_0_Demo
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/7_1_Lesson/7_1_0_Demo/bin/Debug/net6.0/7_1_0_Demo.deps.json
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/7_1_Lesson/7_1_0_Demo/bin/Debug/net6.0/7_1_0_Demo.runtimeconfig.json
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/7_1_Lesson/7_1_0_Demo/bin/Debug/net6.0/7_1_0_Demo.dll
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/7_1_Lesson/7_1_0_Demo/bin/Debug/net6.0/7_1_0_Demo.pdb
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/7_1_Lesson/7_1_0_Demo/obj/Debug/net6.0/7_1_0_Demo.csproj.AssemblyReference.cache
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/7_1_Lesson/7_1_0_Demo/obj/Debug/net6.0/7_1_0_Demo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/7_1_Lesson/7_1_0_Demo/obj/Debug/net6.0/7_1_0_Demo.AssemblyInfoInputs.cache
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/7_1_Lesson/7_1_0_Demo/obj/Debug/net6.0/7_1_0_Demo.AssemblyInfo.cs
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/7_1_Lesson/7_1_0_Demo/obj/Debug/net6.0/7_1_0_Demo.csproj.CoreCompileInputs.cache
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/7_1_Lesson/7_1_0_Demo/obj/Debug/net6.0/7_1_0_Demo.dll
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/7_1_Lesson/7_1_0_Demo/obj/Debug/net6.0/refint/7_1_0_Demo.dll
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/7_1_Lesson/7_1_0_Demo/obj/Debug/net6.0/7_1_0_Demo.pdb
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/7_1_Lesson/7_1_0_Demo/obj/Debug/net6.0/7_1_0_Demo.genruntimeconfig.cache
+/Users/elena/Desktop/GeekBrains/2. Введение в контроль версий/GitVer/C_sharp_course/7_1_Lesson/7_1_0_Demo/obj/Debug/net6.0/ref/7_1_0_Demo.dll
